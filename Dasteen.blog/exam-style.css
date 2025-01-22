@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  border: none;
+  scroll-behavior: smooth;
+  font-family: "Plus Jakarta Sans", serif;
+}
+
+/*===================================================================================================*/
+
+.width-1252 {
+  width: 1252px;
+  margin: 0 auto;
+}
+
+main {
+  width: 1440px;
+  background: #EFF0F3;
+  margin: 0 auto;
+}
+
+/*===================================================================================================*/
+header {
+  width: 100%;
+  height: 86px;
+
+  background: #EFF0F3;
+  box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: fixed;
+  top: 0;
+  z-index: 2;
+
+  gap: 300px;
+}
+
+header h2 {
+  color: #001858;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+header h2 span {
+  color: #6246EA;
+  font-size: 18px;
+  font-weight: 700;
+  width: 48px;
+  height: 27px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+header ul li a {
+  color: #2B2C34;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+header ul svg {
+  margin-right: 10px;
+}
+
+header ul li a:hover {
+  border-bottom: 2px solid #6246EA;
+}
+
+header ul li a:active {
+  color: #6246EA;
+}
+
+header button {
+  display: flex;
+  padding: 10px 17px;
+  align-items: flex-start;
+  border-radius: 4px;
+  background: #6246EA;
+
+  color: #FFFFFE;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+
+header button:hover {
+  scale: 1.01;
+  background: #3b1eda;
+  transition: 0.3s;
+}
+
+/*===================================================================================================*/
+
+.home {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 209px;
+  height: 900px;
+  padding-top: 250px;
+}
+
+.home .home-content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 387px;
+  gap: 116px;
+}
+
+
+.main-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 664px;
+  height: 345px;
+  gap: 30px;
+}
+
+.main-text h1 {
+  width: 617px;
+
+  color: #2B2C34;
+  font-size: 64px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.main-text .home_p_frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 56px;
+  width: 664px;
+
+  border-left: 3px solid #2B2C34;
+}
+
+.home_p_frame p {
+  padding-left: 12px;
+  width: 652px;
+
+  color: #9A9494;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.main-text form {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.main-text form #email {
+  display: flex;
+  padding: 21px 200px 21px 25px;
+  align-items: center;
+
+  border-radius: 8px;
+  background: #FFFFFE;
+
+  font-size: 20px;
+  font-weight: 400;
+}
+#email::placeholder{
+  color: #C0C0C0;
+  opacity: 1;
+}
+
+.main-text form #button {
+  height: 67px;
+  width: 145px;
+
+  border-radius: 8px;
+  background: #6246EA;
+
+  color: #FFFFFE;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.home img {
+  width: 470px;
+  height: 387px;
+  object-fit: cover;
+}
+
+.scroll-icon {
+  width: 24px;
+  height: 24px;
+  background-color: #1b5495;
+}
+
+/*===================================================================================================*/
+

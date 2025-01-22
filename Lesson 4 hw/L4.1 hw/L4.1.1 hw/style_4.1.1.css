@@ -1,0 +1,17 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  height: 21.844vh;
+  background-color: #cfcfcf;
+}
+main{
+  height: 56.312vh;
+  background-color: #888888;
+}
+footer{
+  height: 21.844vh;
+  background-color: #cfcfcf;
+}

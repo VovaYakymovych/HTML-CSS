@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px){
+  .wrapper {
+    padding: 32px 16px;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .row{
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .card{
+    height: 332px;
+  }
+  .card img{
+    height: 257px;
+    width: 343px;
+    object-fit: cover;
+  }
+}

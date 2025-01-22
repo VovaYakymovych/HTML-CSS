@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px) {
+  .wrapper{
+    padding: 32px 16px;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .row {
+    gap: 32px;
+    flex-direction: column;
+  }
+  .card{
+    width: 343px;
+  }
+  .card img{
+    height: 108px;
+    width: 108px;
+    object-fit: cover;
+  }
+  .card h3{
+    margin-top: 16px;
+  }
+  .card p{
+    margin-top: 8px;
+  }
+}

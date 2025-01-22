@@ -1,0 +1,27 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  height: 21.844vh;
+  background-color: #cfcfcf;
+}
+main{
+  display: flex;
+  height: 56.312vh;
+}
+footer{
+  height: 21.844vh;
+  background-color: #cfcfcf;
+}
+.side{
+  background-color: #acacac;
+  height: 56.312vh;
+  width: 26.852vw;
+}
+.center{
+  background-color: #858585;
+  height: 56.312vh;
+  width: 46.296vw;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>hw 2.2</title>
+
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+    .wrapper{
+      height: 100vh;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .rectangle{
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+      width: 75%;
+      padding: 50px;
+      margin: 75px;
+      background: linear-gradient(90deg, rgba(226,124,22,1) 0%, rgba(11,11,184,1) 65%, rgba(0,212,255,1) 100%);
+    }
+    .box{
+      background-color: #e80000;
+      height: 100px;
+      width: 100px;
+      transition: 0.3s
+    }
+    .box:hover{
+      background: radial-gradient(circle, rgba(149,0,255,1) 0%, rgba(255,4,4,1) 100%);
+      border-radius: 50%;
+      transition: 0.3s;
+      /*transform: scale(1.5);*/
+    }
+
+  </style>
+
+</head>
+<body>
+<div class="wrapper">
+  <div class="rectangle">
+
+    <div class="box">
+    </div>
+
+    <div class="box">
+    </div>
+
+    <div class="box">
+    </div>
+
+    <div class="box">
+    </div>
+
+    <div class="box">
+    </div>
+
+    <div class="box">
+    </div>
+
+  </div>
+  <div class="rectangle">
+
+    <div class="box">
+    </div>
+
+    <div class="box">
+    </div>
+
+    <div class="box">
+    </div>
+
+    <div class="box">
+    </div>
+
+    <div class="box">
+    </div>
+
+    <div class="box">
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>

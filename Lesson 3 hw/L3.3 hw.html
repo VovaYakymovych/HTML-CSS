@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>hw 3.3</title>
+
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+      scroll-behavior: smooth ;
+    }
+
+    div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      height: 100vh;
+    }
+    #page_1{
+      background-color: #191bba;
+    }
+    #page_2{
+      background-color: #5a0808;
+    }
+    #page_3{
+      background-color: #5c0d9a;
+    }
+
+    p{
+      font-family: "Segoe UI Light", serif;
+      font-size: 2rem;
+      margin: 40px;
+      text-align: center;
+      color: white;
+      width: 60%;
+    }
+    h2{
+      font-family: "Segoe UI Light", serif;
+      font-size: 4rem;
+      text-align: center;
+      color: white;
+    }
+    p a{
+      color: white;
+      font-size: 4rem;
+      font-weight: 1000;
+      padding: 30px;
+    }
+  </style>
+
+</head>
+<body>
+
+<div id="page_1">
+
+  <h2>Page 1</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam architecto consectetur est ex iste
+    molestias nostrum numquam quas, qui quod sapiente soluta voluptatem. Ab alias architecto, assumenda at blanditiis
+    cumque ex excepturi explicabo impedit incidunt ipsum itaque iure magnam molestias nobis odit omnis placeat porro
+    praesentium qui quidem reprehenderit saepe tempore veritatis vero. Reprehenderit, voluptatibus?</p>
+  <p><a href="#page_2">&#8595</a></p>
+</div>
+
+<div id="page_2">
+  <p><a href="#page_1">&#8593</a></p>
+  <h2>Page 2</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid amet architecto aspernatur atque
+    beatae consectetur corporis cupiditate dicta dolores est expedita fugiat fugit hic in modi nemo non perspiciatis
+    possimus quae quam quos rem repellat repellendus, reprehenderit sed suscipit temporibus vel veniam voluptate.
+    Aliquam aperiam minus molestiae molestias nesciunt nobis ullam voluptatum. Autem consectetur culpa debitis dolorem
+    doloremque, error eveniet ex expedita fuga incidunt nemo nobis, perferendis quaerat sed soluta tempora voluptas
+    voluptatibus.</p>
+  <p><a href="#page_3">&#8595</a></p>
+</div>
+
+<div id="page_3">
+  <p><a href="#page_2">&#8593</a></p>
+  <h2>Page 3</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad delectus eligendi, iste magnam nam quibusdam?
+    Accusantium adipisci aspernatur culpa cumque dolore doloribus eaque eos excepturi explicabo fugiat hic, id, illo
+    incidunt iste labore modi nemo odit optio placeat porro reprehenderit sit sunt unde vel vitae voluptatem voluptates
+    voluptatibus voluptatum.</p>
+</div>
+
+</body>
+</html>

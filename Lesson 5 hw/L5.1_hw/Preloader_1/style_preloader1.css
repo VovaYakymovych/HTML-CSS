@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+
+  animation: backgrnd 1.5s linear infinite alternate ;
+}
+
+.background img {
+  height: 70px;
+  width: 70px;
+  object-fit: cover;
+  animation: loader 1s linear infinite;
+}
+
+@keyframes loader {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes backgrnd {
+  from{
+    background-color: white;
+  }
+  to{
+    background-color: #cedcef;
+  }
+}
