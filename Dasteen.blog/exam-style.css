@@ -38,7 +38,7 @@ header {
 
   position: fixed;
   top: 0;
-  z-index: 2;
+  z-index: 3;
 
   gap: 300px;
 }
@@ -188,7 +188,8 @@ header button:hover {
   font-size: 20px;
   font-weight: 400;
 }
-#email::placeholder{
+
+#email::placeholder {
   color: #C0C0C0;
   opacity: 1;
 }
@@ -219,4 +220,110 @@ header button:hover {
 }
 
 /*===================================================================================================*/
+
+.categories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 50px;
+  padding-top: 67px;
+  padding-bottom: 68px;
+}
+
+.categories .section-name-link {
+  display: flex;
+  justify-content: space-between;
+  width: 1252px;
+}
+
+/*===========================*/
+.link {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+.link svg {
+  margin: 9px 7px 2px 0;
+}
+
+/*===========================*/
+
+.categories .section-name-link a {
+  color: #2B2C34;
+  text-align: right;
+
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.categories .section-name-link p {
+  color: #2B2C34;
+
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.categories-cards-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 37px;
+
+  position: relative;
+
+}
+
+.categories-card {
+  width: 220px;
+  height: 280px;
+  display: flex;
+  z-index: 2;
+
+  padding: 65px 0 95px 30px;
+
+  background-color: #FFFFFE;
+  border-radius: 8px;
+  box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
+}
+
+.icon\/tittle-category {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.icon\/tittle-category p {
+  color: #2B2C34;
+
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.icon\/tittle-category .icon-background {
+  width: 60px;
+  height: 60px;
+  border-radius: 7.458px;
+  background-color: #FFFFFE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dots-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 155px;
+  position: absolute;
+
+  right: -56px;
+  bottom: -55px;
+  z-index: 1;
+}
 
