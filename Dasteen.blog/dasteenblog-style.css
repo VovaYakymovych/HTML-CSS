@@ -11,7 +11,7 @@
   font-family: "Plus Jakarta Sans", serif;
 }
 
-/*===================================================================================================*/
+/*================================================backgrounds==============================================*/
 
 .width-1252 {
   width: 1252px;
@@ -21,10 +21,20 @@
 main {
   width: 100%;
   background: #EFF0F3;
-  margin: 0 auto;
+
 }
 
-/*===================================================================================================*/
+article {
+  padding: 80px 0;
+}
+
+.subscribe{
+  width: 100%;
+  background: #EFF0F3;
+  padding: 58px 0 33px 0;
+}
+
+/*===============================================header====================================================*/
 header {
   width: 100%;
   height: 86px;
@@ -109,7 +119,7 @@ header button:hover {
   transition: 0.3s;
 }
 
-/*===================================================================================================*/
+/*=============================================main======================================================*/
 
 .home {
   display: flex;
@@ -171,16 +181,21 @@ header button:hover {
   font-weight: 400;
 }
 
-.main-text form {
+/*==============form=============*/
+
+form {
   display: flex;
   align-items: flex-start;
   gap: 20px;
 }
 
-.main-text form #email {
+form .email {
   display: flex;
-  padding: 21px 200px 21px 25px;
+  padding: 21px 0 21px 25px;
   align-items: center;
+
+  height: 67px;
+  width: 444px;
 
   border-radius: 8px;
   background: #FFFFFE;
@@ -189,12 +204,12 @@ header button:hover {
   font-weight: 400;
 }
 
-#email::placeholder {
+.email::placeholder {
   color: #C0C0C0;
   opacity: 1;
 }
 
-.main-text form #button {
+form .button {
   height: 67px;
   width: 145px;
 
@@ -209,11 +224,13 @@ header button:hover {
   transition: 0.3s;
 }
 
-.main-text form #button:hover {
+form .button:hover {
   scale: 1.01;
   background: #3b1eda;
   transition: 0.3s;
 }
+
+/*===========================*/
 
 .home img {
   width: 470px;
@@ -227,7 +244,7 @@ header button:hover {
   background-color: #1b5495;
 }
 
-/*===================================================================================================*/
+/*======================================categories=============================================================*/
 
 .categories {
   display: flex;
@@ -240,7 +257,7 @@ header button:hover {
   padding-bottom: 68px;
 }
 
-/*===========================*/
+/*=============link==============*/
 .section-name-link {
   display: flex;
   justify-content: space-between;
@@ -347,12 +364,9 @@ header button:hover {
   z-index: 1;
 }
 
-/*===================================================================================================*/
-.article-posts-wrapper {
-  padding: 80px 0;
-}
+/*============================================article======================================================*/
 
-.article-posts-wrapper .content {
+article .content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -448,7 +462,6 @@ header button:hover {
   text-transform: capitalize;
 }
 
-
 .content button {
   height: 64px;
   width: 165px;
@@ -470,4 +483,45 @@ header button:hover {
   transition: 0.3s;
 }
 
+/*============================================subscribe======================================================*/
 
+.subscribe-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 30px;
+  width: 696px;
+  height: 362px;
+
+  margin: 0 auto;
+}
+.subscribe-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 105px;
+}
+.subscribe-text h3{
+  color: #2B2C34;
+
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.subscribe-text p{
+  color: #C0C0C0;
+
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+.circle{
+  width: 130px;
+  height: 130px;
+  background: #FFFFFE;
+  border-radius: 50%;
+}
