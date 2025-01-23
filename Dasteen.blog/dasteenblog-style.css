@@ -410,13 +410,13 @@ header button:hover {
 
 .author\/released\/reading-time {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 
-  gap: 15px;
+  width: 260px;
 }
 
-.released\/reading-time {
+.released\/reading-time-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -424,17 +424,21 @@ header button:hover {
   gap: 4.2px;
 }
 
-.released\/reading-time h5 {
+.released\/reading-time-wrapper h5 {
   color: #2B2C34;
 
   font-size: 16px;
   font-weight: 600;
 }
 
-.released\/reading-time p {
+.released\/reading-time {
   width: 184px;
-  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.released\/reading-time p {
   color: #2B2C34;
 
   font-size: 14px;
@@ -442,10 +446,10 @@ header button:hover {
   font-weight: 400;
   line-height: normal;
   text-transform: capitalize;
-
-  text-align: justify;
 }
-.content button{
+
+
+.content button {
   height: 64px;
   width: 165px;
   border-radius: 8px;
@@ -459,8 +463,11 @@ header button:hover {
 
   transition: 0.3s;
 }
-.content button:hover{
+
+.content button:hover {
   scale: 1.01;
   background: #3b1eda;
   transition: 0.3s;
 }
+
+
