@@ -19,7 +19,7 @@
 }
 
 main {
-  width: 1440px;
+  width: 100%;
   background: #EFF0F3;
   margin: 0 auto;
 }
@@ -209,7 +209,7 @@ header button:hover {
   transition: 0.3s;
 }
 
-.main-text form #button:hover{
+.main-text form #button:hover {
   scale: 1.01;
   background: #3b1eda;
   transition: 0.3s;
@@ -240,13 +240,13 @@ header button:hover {
   padding-bottom: 68px;
 }
 
-.categories .section-name-link {
+/*===========================*/
+.section-name-link {
   display: flex;
   justify-content: space-between;
   width: 1252px;
 }
 
-/*===========================*/
 .link {
   display: flex;
   align-items: flex-end;
@@ -256,9 +256,8 @@ header button:hover {
 .link svg {
   margin: 9px 7px 2px 0;
 }
-/*===========================*/
 
-.categories .section-name-link a {
+.section-name-link a {
   color: #2B2C34;
   text-align: right;
 
@@ -267,13 +266,15 @@ header button:hover {
   text-transform: capitalize;
 }
 
-.categories .section-name-link p {
+.section-name-link p {
   color: #2B2C34;
 
   font-size: 24px;
   font-weight: 700;
   text-transform: capitalize;
 }
+
+/*===========================*/
 
 .categories-cards-wrapper {
   display: flex;
@@ -337,6 +338,7 @@ header button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+
   gap: 155px;
   position: absolute;
 
@@ -345,3 +347,120 @@ header button:hover {
   z-index: 1;
 }
 
+/*===================================================================================================*/
+.article-posts-wrapper {
+  padding: 80px 0;
+}
+
+.article-posts-wrapper .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+
+.article-posts {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.post-cards-row {
+  display: flex;
+  gap: 16px;
+}
+
+.article-posts .post-card {
+  width: 300px;
+  height: 425px;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 12px;
+  background: #FFFFFE;
+
+  transition: 0.3s;
+}
+
+.post-card:hover {
+  box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
+  transition: 0.3s;
+}
+
+.post-card .post-image-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  gap: 25px;
+}
+
+.post-image-title h4 {
+  width: 260px;
+  color: #2B2C34;
+
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.author\/released\/reading-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 15px;
+}
+
+.released\/reading-time {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  gap: 4.2px;
+}
+
+.released\/reading-time h5 {
+  color: #2B2C34;
+
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.released\/reading-time p {
+  width: 184px;
+  height: 21px;
+
+  color: #2B2C34;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+
+  text-align: justify;
+}
+.content button{
+  height: 64px;
+  width: 165px;
+  border-radius: 8px;
+  background: #6246EA;
+
+  color: #FFFFFE;
+
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+
+  transition: 0.3s;
+}
+.content button:hover{
+  scale: 1.01;
+  background: #3b1eda;
+  transition: 0.3s;
+}
