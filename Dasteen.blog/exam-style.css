@@ -205,6 +205,14 @@ header button:hover {
   font-size: 20px;
   font-weight: 700;
   text-transform: capitalize;
+
+  transition: 0.3s;
+}
+
+.main-text form #button:hover{
+  scale: 1.01;
+  background: #3b1eda;
+  transition: 0.3s;
 }
 
 .home img {
@@ -248,7 +256,6 @@ header button:hover {
 .link svg {
   margin: 9px 7px 2px 0;
 }
-
 /*===========================*/
 
 .categories .section-name-link a {
@@ -289,6 +296,17 @@ header button:hover {
   background-color: #FFFFFE;
   border-radius: 8px;
   box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
+
+  transition: 0.5s;
+}
+
+.categories-card:hover {
+  background: #6246EA;
+  transition: 0.5s;
+}
+
+.categories-card:hover p {
+  color: #FFFFFE;
 }
 
 .icon\/tittle-category {
